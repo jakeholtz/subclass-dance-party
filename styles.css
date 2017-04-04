@@ -1,5 +1,11 @@
 body, html{
   height:100%;
+  background-image: url('http://www.djdebonaire.com/images/powerspot575iifx.gif');
+  background-repeat:no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 body{
   margin: 0px;
@@ -18,10 +24,15 @@ body, a:link, a:visited, a:active{
   background-color: #555;
 }
 .title{
-  background-color: #777;
+  //background-color: #777;
 }
+
 .dancer{
-  border:10px solid red;
+  background-image: url('https://img.clipartfest.com/01b66d4786b71aa412ddc64a76de989d_chicken20wing20clipart-clipart-chicken-wing-transparent-background_480-597.png');
+  
+/*   border:10px solid red;
   border-radius:10px;
-  position:absolute;
+  position:absolute; */
 }
+
+
