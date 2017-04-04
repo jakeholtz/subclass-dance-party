@@ -6,7 +6,7 @@ var FunnyDancer = function(top, left, timeBetweenSteps) {
 FunnyDancer.prototype = Object.create(Dancer.prototype);
 FunnyDancer.prototype.constructor = FunnyDancer;
 
-FunnyDancer.prototype.actStupid = function() {
+FunnyDancer.prototype.actFunny = function() {
   Dancer.prototype.step.call(this);
   return "I'm a funny dancer! Ha!"
 }
