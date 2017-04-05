@@ -9,6 +9,7 @@ var Dancer = function(top, left, timeBetweenSteps) {
 
 Dancer.prototype.step = function() {
   setTimeout(this.step.bind(this), this.timeBetweenSteps);
+  this.$node.stop();
 }
 Dancer.prototype.setPosition = function(top, left) {
   var styleSettings = {
@@ -16,8 +17,4 @@ Dancer.prototype.setPosition = function(top, left) {
       left: left
   };
   this.$node.css(styleSettings);
-
-  // BlinkyDancer.prototype.person = function() {
-  //   this.$node.prepend(<img src="dancerchicken.png" alt="Dancer">)
-  // }
 };

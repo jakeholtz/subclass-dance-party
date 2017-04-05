@@ -10,7 +10,8 @@ StupidDancer.prototype.actStupid = function() {
   Dancer.prototype.step.call(this);
   return "I'm a stupid dancer! Durrr!";
 }
-// StupidDancer.prototype.step = function() {
-//   var oldStep = Dancer.prototype.step;
-//   Dancer.prototype.step.call(this);
-// }
+StupidDancer.prototype.step = function() {
+  var oldStep = Dancer.prototype.step;
+  Dancer.prototype.step.call(this);
+  this.$node.fadeIn();
+}
