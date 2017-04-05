@@ -8,5 +8,9 @@ StupidDancer.prototype.constructor = StupidDancer;
 
 StupidDancer.prototype.actStupid = function() {
   Dancer.prototype.step.call(this);
-  return "I'm a stupid dancer! Durrr!"
+  return "I'm a stupid dancer! Durrr!";
 }
+// StupidDancer.prototype.step = function() {
+//   var oldStep = Dancer.prototype.step;
+//   Dancer.prototype.step.call(this);
+// }

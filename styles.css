@@ -1,6 +1,6 @@
 body, html{
   height:100%;
-  background-image: url('http://www.djdebonaire.com/images/powerspot575iifx.gif');
+  background-image: url('http://spyrestudios.com/wp-content/uploads/16-setting-the-scene-website-background.jpg');
   background-repeat:no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -27,8 +27,8 @@ body, a:link, a:visited, a:active{
   //background-color: #777;
 }
 
-.dancer{
-  background-image: url('https://img.clipartfest.com/01b66d4786b71aa412ddc64a76de989d_chicken20wing20clipart-clipart-chicken-wing-transparent-background_480-597.png');
+.Dancer{
+  background-image: url('dancerchicken.png')
   
 /*   border:10px solid red;
   border-radius:10px;

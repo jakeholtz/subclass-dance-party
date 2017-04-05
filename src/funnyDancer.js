@@ -8,5 +8,5 @@ FunnyDancer.prototype.constructor = FunnyDancer;
 
 FunnyDancer.prototype.actFunny = function() {
   Dancer.prototype.step.call(this);
-  return "I'm a funny dancer! Ha!"
+  return "I'm a funny dancer! Ha!";
 }
